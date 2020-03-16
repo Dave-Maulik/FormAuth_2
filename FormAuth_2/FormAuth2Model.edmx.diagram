@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7e53ef5e6e784511ada59e45dccf24cf" Name="Diagram1" ZoomLevel="123">
+        <EntityTypeShape EntityType="MVC_DBModel.Employee" Width="1.5" PointX="2" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC_DBModel.RoleMaster" Width="1.5" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC_DBModel.UserRolesMapping" Width="1.5" PointX="3.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVC_DBModel.User" Width="1.5" PointX="5.75" PointY="2.125" IsExpanded="true" />
+        <AssociationConnector Association="MVC_DBModel.FK__UserRoles__RoleI__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="MVC_DBModel.FK__UserRoles__UserI__29572725" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
